@@ -1,0 +1,143 @@
+data types this are used to define varaibles in java folowing are the permitive data types 
+int
+float
+double
+char
+boolean
+
+5.write a p to find the sum of 2 number
+6.wp to inter change 2 number
+7. inter change 2 number without using 3rd varaible ic2
+8.wp interchange 2 number without using temp and add and subcartion(hw)
+9.sum of 2 number is 15  2nd is twice of first what is the number(hw)
+10. sales man purchase 50caps at the rate of 500rs what will be the cost of 1 cap(hw)
+11. sales man pirchase 100 bags at the cost of 1000 out of 100 bags 12 bags are damageded what is the cost of 1 bag(hw)
+12. a sales man purchase 100 caps at the cost of 1000rs 10 caps are damaged and 200rs is used for food 300es for 
+traveling what is the cost of 1 cap.(hw)
+
+
+
+condition statements
+java suppports 3 types of conditional statements 
+if
+for
+switch
+for every condition their will be a 2 possbilities true or fales. if the condition is true the first bock will be ecuqeted if the conditionis fales it will exceute the else part.
+
+syntax
+if(condition)
+{
+true
+}
+else
+{
+false
+}
+
+13. wp to find the greatest of 2 number
+14. wp to check the give number is even or odd
+
+hw 
+15.wp to check leap year
+16.wp to check the give number is positive or negaitive
+17.wp to check is the user is eigible for driving licenses whoes age is 17 years
+
+operators 
+this are used to perfrom some operation on a operands for exmaple 3+5 3 and 5 are operands +is a operator following are the some of the operator supported by java
+1.arthamatic operator : this operator are used to perfrom mathamatical operation + - / * = ,%.
+2.comparsion operator : this operator are used to compare the values <,>,<=,>=,==,!=.
+3.logical operators : this operator are used to combine more than one comparsion operators 
+and(&&)
+or(||)
+not(!=,<>)
+ and when all condition are true it will retrn true if any 1 condition fales it return fales.
+ or when any 1 condition is true is true it return true when all condition become fales it return fales. not its a oppositie of and when all condition become fales it returns true if any 1 of condition is fales it return fales
+
+18.wp to find greatest of 3 numbers
+19. wp to display the following messages 
+if a number divides by 3 display hello
+if number divides by 5 diaplay hi
+if number divides by 3 and 5 display hello hi
+3,10,15
+
+10.write a program to find the greatest of 5 number
+21. write p to display the result with respect to the marks
+if the marks is 35 to 50 display parse 
+if the marks is 50 to 60 dispay 2nd class
+if the makrs is 60to75 first pass
+75to 100 distiction else fail
+give marks is 45
+
+22. wp to read 3 sides of rectsangle and display what type of rectangle it is
+
+LOOP
+to repate same statement again and again loops are used by using loops the same set of code can be excuted any number of times
+following are the 3 different types of loops supported by java from jdk 1.8 onvards advance looping concept is used by using for each concept
+for loop when we know the number of repetation we use for loop for loop is a entery control loop
+which checks the cinditions first then the excution starts due this feature is called entery control loop
+for loop take 3 parameters  first as start valeue or inital value second parametr as a conditon till the condition s true loop 
+will exceute the movement condition false loop will be terminted 3rd as a incremant or decremant
+
+for(start ; condition ;incr/decr)
+{
+TRUE
+------
+} 
+FALSE -> EXIT
+
+23.wp to display the number for 1 to 10
+24. wp to display the numbers from 20 to 10
+25. wp to display all even number from 1 to 20
+26. wp to display the sum of 1 to 10
+27. wp to display numbers from 1 to 30 which are divisible by 3
+28. wp to display the following messages for the range 1 to 30
+if the number divideds by 3 display hi
+if no divides by 5 display hello
+if a number divides by 3 and 5 dispay hi hello
+
+
+pattren
+29. wp to pattern 
+*
+**
+***
+30. 
+1
+12
+123
+12
+1
+
+ 1
+323
+
+  1
+ 121
+12321
+ 121
+  1
+
+WHILE LOOP 
+its a entery contorled loop when we dont know the number of repetations we use this loop in this loop intialization condition incerment or derement are given in seaparet lines first we initiazie the value  then this value will be checked with a condition if the condition is true it will excute the code else it will terminate 
+
+SYNTAX 
+Start
+while(condition)
+{
+
+incr/decr
+}
+
+31. wp to display the number from 1 to 10 using while loop
+32. wp to read the value from user and display
+33. wp to read a 3 digit number and display indivial digits
+34. wp to read a number and reverse it
+35. wp to read a number and check is it a palindrome
+36. wp to read a number and find the sum of indival number
+do while loop
+its a exit control loop this loop will excute altaest once irespective of errors following example 
+
+37.wp to display all prime number from 1 to 50
+38. wp to display fibanoci series upto 15
+39. wp to check arm strong (the cube of indivial digits is the same number )
+40. wp to read a number and check is it a prime
