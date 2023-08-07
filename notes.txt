@@ -141,3 +141,66 @@ its a exit control loop this loop will excute altaest once irespective of errors
 38. wp to display fibanoci series upto 15
 39. wp to check arm strong (the cube of indivial digits is the same number )
 40. wp to read a number and check is it a prime
+41.
+42.create a class for to store staff information create 2 objects and show the information
+
+
+contustrs
+are the spical type of methods by using a constructor we can assine a delfault for member variable constructor will intilizing the objects in constructor their 2 types 
+deafult construcotr 
+user defined  constructor
+
+
+deafult construcotr :
+this is created by the jvm at the time of complieation jvm checks for the constructor if the constructor is not defined it will create a constructor by assing a defualt vlaues the following chat show the deafult value of datatypes
+int=0
+float or double=0.0
+string or char= NULL
+Boolen=false
+43.deafult bvale
+
+user defined constructor :
+this are created by user accroding the requriments in user defined constructor their 2 types 
+1.default
+2. paramatrised
+
+1. default: when we default constructor is created to strore user defined defualt constructor user can assine their own values for the varilaves
+2. paramatrised : in paramatrised constructor it is going to take parameters and this paramers will be assinged to the locail vairables
+
+44.write a program to demonstarte user defined constructor 
+45.write a program to demonstarte user user defined constructor 
+46hw.wp to check is the givien number palidrom or not
+47hw.create a array of size 5 store values in it display the second highest no?
+
+Inhertance:
+transfer of charaterctics from 1 class to another class is called inhertance following are the different types of inhertances supported by java 
+
+1. simple inhertance: in it only 2 classes will be particpated first class is paraent class 2nd clASS is child class to inhert the features from 1 class to other class we use extenteds key word following example demostartes simple inhertance
+
+48.simple inhertance
+
+2.multileve inhertance:
+first class transfer its charaterctics to the second class 2nd to 3rd ,3rd to 4th and so no.
+following expample demonstarte multilevel inhertance
+49.multileve inhertance:
+
+hierarchial inheritance:
+in hierarchial inheritance a single class tranfer its charatericts to a 2 or more class in hierarchial inheritance only 1 super class all other class are sub class following examples demostrate hierarchial inheritance
+50.hierarchial inheritance
+
+multiple inheratiance : java doest not supports multiple inheratiance in mutiple inheratiance 2 or more classes will
+ inherat the charaterics to a single class this type of inheratance is not supported by java to give a support for 
+multiple inhertance java introduced interfaces 
+
+interfaces can be called to a inherated class a single class can inhert any number of interfaces  in
+
+
+interface:
+its a incmplet class its desgined to achive multipe in hertances in java following are the some of the key featuers of 
+interfaces 
+1. interfaces are defined using the key word interface. its a incompete class interfaces can define only the singnature of 
+of method or interface are going to define method names this methods will be implemented or defined in a inherated class
+interfaces cannot be excueted 
+2. in it we cant define varaibles 
+3. in it what ever the methods we define all the methods must be implemented in a inherated class  
+51.overloading
