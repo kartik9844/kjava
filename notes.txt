@@ -204,3 +204,21 @@ interfaces cannot be excueted
 2. in it we cant define varaibles 
 3. in it what ever the methods we define all the methods must be implemented in a inherated class  
 51.overloading
+
+
+52.interfaces
+
+
+packages :
+it is a collection classes , interfaces and package itself
+by using packages we can group inter realated classes and interfaces following are the advantages of packages 
+1.groups inter related class ,faster to access class and interfaces , only requrid related class are loaded or imported for a program,
+we can use the same file name in different packages by perfixing the package name and a class name we can access the files creation of packages
+
+1.first line of a program must be package defination
+2.followed by package defination import statment can be added all classes and interfaces in package are defined  as a public  varaiables 
+must be defined as a public 
+3. program will be complied using commond javac -d . filename.java
+javac for compliation -d is used to create a directory by package name . is used specifiy the present working directory filename.java the file which contains the package defination
+
+53. wp to demonstrate packages 

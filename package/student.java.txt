@@ -1,0 +1,9 @@
+//53. wp to demonstrate packages 
+
+packages college;
+
+ppublic class student
+{
+public int roll;
+public String name;
+}
