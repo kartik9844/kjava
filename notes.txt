@@ -1,3 +1,5 @@
+
+
 data types this are used to define varaibles in java folowing are the permitive data types 
 int
 float
@@ -221,4 +223,200 @@ must be defined as a public
 3. program will be complied using commond javac -d . filename.java
 javac for compliation -d is used to create a directory by package name . is used specifiy the present working directory filename.java the file which contains the package defination
 
-53. wp to demonstrate packages 
+53. wp to demonstrate
+
+
+system defined packages 
+this packages readly availavble when we install a java software following are the some of the main built in packages 
+1. java.lan: this is a default package for java all class and interfaces of this clas can be acccessed without importing the package by default these class can be accessed
+
+string: this class is introced to work with string related operations this class as follwing methods to mainpult the string data
+1. equals : its used to compare 2 strings with a case
+2.equals ingnore case: its used to compare 2 strings without the case
+3. length: its used to find the number of charaters in a string 
+4. toupper case : converts a string to upper case
+5. toLower case: converts a string to lower case 
+6. ends wiht: to ending check charaters 
+7. starts wiht: to check starting char or a string
+8. index of : to check index of a specific charater
+9. char @: to know a charater at a specific index
+
+54.write program to desmostrate string function
+55.write program to desmostrate string function
+
+
+math class this class is introduced to work with mathamitcal operations follwing are the some of the methods which are used to manupliate math data
+1.ceil: its used to convert a fartiona value to its nearst lowest intger
+2. floor: it used to covert a fartion value to its nearest lowest intger
+3. round: its used to convert a fartion value to its nearest integer wiht respect to the fration if the value ranges from 0 to 4 coverts lowest integer if the value ranes from5 to 9 coverts to highest interger
+4. pow: to find the power of number 
+5. sqrt: to find square root of a number
+6. abs: to covert negative to positive
+
+56. writep to demostrate mathdemo
+
+string buffer: this class is a enhacment of string class its stores the data in form of array this class as the following methods to manuplate string of a data 
+1.append: this used to add the data at the last
+2.insert: its used to add a new data at a specific location or a index number 
+3.revrse:its used to revser the entire string buffer
+4. replace: its used to replace a sting or charaters of data from a specific location or with a specifi word 
+
+57.follwing exmaple demonastrate string buffer
+wrapper class: this class are introduced to work with basic data types in java premintive datatype are supported for permitive data types we dont have methods to overcome this problem java introduced wrapper class in wrapper classes we are going to define enchanced class from basic data types following chart shows the list of basic datatypes and wrapper class
+int- Int
+float-Float
+
+58.wp to demonastrate commond line parameters 
+
+59. wp to demonastrate wrapper class to convert a string data to number.
+
+Exception:
+AS 2 TYPES COMPILE TIME AND RUNTIME ERROR
+
+possibilty of try and catch ;
+try
+{
+}
+catch{}
+
+try{}catch{}catch{}
+
+try{}final{}
+
+try{}catch{}final{}
+
+62.try with multiple catches
+
+63.therad creation and excution
+
+Keywords:
+1.join:this method is used to add a new thread to process when we use this method it will wait till the active thread completes its process the moment it completes it will join to the processos  area and timing will reschudeld 
+
+2.yeild: it s also used to add new thread to process area it will stop the process forceablely and adds a new thread
+
+3. synchronizaton:is the key word when it is used with a class thread becomes the highliest priorty higher than 10 when were the synchronies thread enters to the process area it will ask all threads to leave the process area and enter to the block state till it completes it work it not allow any threads to join or enter the process area once it completes it work it will send notify all method to its waiting threads with the help of notify all method all waiting thread will activate and try to join the process area this may cause a rest state which may reduces the excution speed.
+4. deadlock: when 2 synchornize thread try to access the process area at the same time processor is not able to dessied to whom service will be provided in such sutitvation processor will block
+ both the threads and it will become ideal and it iwll not resopnd to nay of the thread. this process or this state is called block state.
+5. thread group: when group of threads are written to perform a single it said to be a thread groups are created for chain creation activities by using thread group we can control a group excution.
+
+util package:
+java.util.package this package is used to access the system class and collection class one of the system class is data its used to access or to retrive the data from system tree  by defult it going to read the system data and time to read system data and time it as following methods get data get mouth, get year, get day ,get hours get minutes. to change the system data and time set mehtod are used set data set mouth set year ,set data, set hours .
+
+64. wp to demonstarte a data class 
+65. wp to retrive the data from date
+66. wp to display the the date after 45days 
+67. wp to display day of week in words
+
+collection class
+one of the tradinational collection class is arrays in collection classes we are going to store a data this data is avaiblae only in a runtime array is a collection class but it as some darwbacks 
+1.its a collection os homogines data 
+2.array size is fixed we connot modify the array size in runtime to over come this java introduced danamic collection classes 
+
+danynicm collection classes when we define the object of danyamic class its size will be zero  when we add the elements its size will be increased when we remove the elements its size will be decarsed this is the one of the advance feature which will save the memory and data
+following are the some of the main danymic classes 
+
+1. set: its a danymic class it can store any type of data theis is no index numbering and adding and removeing of data is done by using value name1
+2.list : its imporoved version of array list its store and retrive the data by using index number following example demostrate array list
+
+68. demostrate array list
+
+
+linklist:
+its improved version of array list with a extra features like add first, add last, remove first, and remove last
+following example demostartes the linkedlist 
+69. example demostartes the linkedlist 
+
+vector:
+its a danamic collection class it as 2 differernt constructors deflaut and a paramatriesd 
+deflaut : when we create a vector object by using a deflaut contructor it will give a vector with a capacity 10 the capacity means avalible when we add new element vector size will be increased  when vector size equals to capacity and we try to add new values vector will increase its capacity by 10 more values this process will be continous 
+
+70. wp to demostarte a deflaut vector 
+
+Paramatrised vector: in paramatrised vector constroutor is going to take 2 paramenters first parameters as a initinal capacity 2nd parametrs as load factor or value when we create object the vector capacity will be the first parameter value when we add values its size will be incerased when size equals to capacity and we try to add new value it will increase its capacity by using load factor. (2nd paramenters) this process will be contiunios following example demostrates the paramtersied consturot
+
+71.wp to demostarte a Paramatrised vector 
+
+STACK:
+its a single sided collection class one side of contair is closed single side act as input amd output to add the elements push method is used to remove the elements pop method is used following example demostrate stack class
+
+72.following example demostrate stack class
+
+auto boxing: in auto boxing complier automaticaly converts permitive types into their correspoding wrapper classes this will be help full when we are assing a value to an object 
+
+unboxing: in unboxing the opposite process will be done it convert wrapper classes to basic data types with the help of this java achived 100% oop concpet from jdk 1.6 
+
+73. autoboxing 
+74. enum
+
+random class : it isintrouded to genrate the random numbers we have method nextInt which takes the a parameter which tells the range of random number following example demostarte random number genaration
+
+75.random number
+ 
+scanner this class is used to read the data from user this class as different types of methods to read different type of  data  for example read line , read float, read double
+
+76.scanner
+
+System
+	in red
+	out print, println
+	err -printStackTraceErr
+
+
+java.io: this package this package is introduced to work with inputa nd output operations  to read and write data number of classes aare introduced  one of the super most class is system this class as 3 sub classes system.in , system.out, system.err .
+
+system.in this class is used to read the data from the user 👤  read methods is used to read the data the from 👤 user read method reads one charater at a time ⌚  by default it reads the data from keyboard it does not support for networking
+
+System.out : this class is used to display data on screen it as 2 methods print and println print will display on the same line println will dislpay in a new line following example demostrate the  system class 
+
+77.javaio
+
+
+
+Data encryption 
+this class is introduced to read a data line by line to read data readline method is introducdes 
+
+78.following example demonstrates data input Stream 
+
+
+Stream: a continuous follow of data is called stream. when we read a data it will be input stream when we send data out it will be a output stream by using this 2 classes the new class are introduced to read and write different types of data folloing are the some of the classes 
+1.first datainput stream 
+2. file inputstream
+3.buffered inputstream
+
+DataOutput Stream
+1.file outputStream
+2.Buffered OutputStream
+
+file: its a super most class of file System the constructor ofthis class takes a file name or it may take the path or url of a file following example demostrates reading the contents of a folder in this program we are going to pass the addresss of the folder whoes file contents we want to read list is a method which reads all the file names of a spcified folder a store in a array length is a method which returns the number of fies in a folder 
+
+79.fileList
+
+FILEOUTPUT STEAM: this is a combination of file and outputStream by using this class we can create a file this file is created physically on a prsent working directory
+
+80.filecreation
+
+file reading to read a file file input stream class is introduced the construtor of this class takes a parameteras a file name this file name will be stored in a object first we are going to read the number of charaters in a file with a help of available methods which retuns the number of charaters with a blank space which is used for file termination with the help of read method we are going to read chartere by charter from  a file first 
+
+81.filereading
+
+Networking
+
+when we connect to 2 or more system to idetify the system we may use mac name or Ip address ip address is a 
+one of the fixble way of idetifying a machine in a network ip address is a combination of 4 numbers seapareted by a dot 
+in each position we can have a value from 0 to 255  first 3 position of ip address is calle or a network address or server address
+form each position of ip address we connect 256 machines next port when we install any software or server it will be installed on spicfic location 
+this memory location is called 	port number folloing are the some of the popluar server and port numbers 
+1. oracle: 8080
+2.tomact: 8080
+3.weblogic: 7000/7001/7007
+4.asp:80
+5.servlet: 80
+6. mysql:3306
+postgrase: 4321
+django: 4200
+
+
+Socket: it is a combination of ip address and port number mainly to types of Sockets client Socket and server Socket
+1.client Socket: it takes 2 parameteras ip address AND  port number ip address is used to tell where exactly the server is placed 
+port will tell where my server is running 
+2.server Socket: it takes 1 parameter that is port number this tells server is avaiable in this port 

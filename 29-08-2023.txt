@@ -1,0 +1,85 @@
+string buffer: this class is a enhacment of string class its stores the data in form of array this class as the following methods to manuplate string of a data 
+1.append: this used to add the data at the last
+2.insert: its used to add a new data at a specific location or a index number 
+3.revrse:its used to revser the entire string buffer
+4. replace: its used to replace a sting or charaters of data from a specific location or with a specifi word 
+
+57.follwing exmaple demonastrate string buffer
+wrapper class: this class are introduced to work with basic data types in java premintive datatype are supported for permitive data types we dont have methods to overcome this problem java introduced wrapper class in wrapper classes we are going to define enchanced class from basic data types following chart shows the list of basic datatypes and wrapper class
+int- Int
+float-Float
+
+58.wp to demonastrate commond line parameters 
+
+59. wp to demonastrate wrapper class to convert a string data to number.
+
+Exception:
+AS 2 TYPES COMPILE TIME AND RUNTIME ERROR
+
+possibilty of try and catch ;
+try
+{
+}
+catch{}
+
+try{}catch{}catch{}
+
+try{}final{}
+
+try{}catch{}final{} 
+
+//57.follwing exmaple demonastrate string buffer
+
+class StringBuffer57
+{
+public static void main(String arg[])
+{
+StringBuffer s1=new StringBuffer("i java");
+System.out.println(s1);
+s1.insert(2,"like");
+System.out.println(s1);
+s1.append("and python");
+System.out.println(s1);
+s1.replace(5,10,"adv java");
+System.out.println(s1);
+s1.reverse();
+System.out.println(s1);
+}
+}
+
+
+//58.wp to demonastrate commond line parameters 
+
+class cmd58
+{
+public static void main(String arg[])
+{
+String s1,s2;
+s1=arg[0];
+s2=arg[1];
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s1+s2);
+}
+}
+
+
+//59. wp to demonastrate wrapper class to convert a string data to number.
+
+class cmd59
+{
+public static void main(String arg[])
+{
+String s1,s2;
+s1=arg[0];
+s2=arg[1];
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s1+s2);
+int a,b,c;
+a=Integer.parseInt(s1);
+b=Integer.parseInt(s2);
+c=a+b;
+System.out.println(c);
+}
+}
